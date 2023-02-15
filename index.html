@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+    <title>Home</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-secondary-subtle border-bottom">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/LogoAmazingEvents.png" width="100" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" href="./index.html">Home</a>
+                    <a class="nav-link" href="./upcoming-events.html">Upcoming Events</a>
+                    <a class="nav-link" href="./past-events.html">Past Events</a>
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                    <a class="nav-link" href="./stats.html">Stats</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container-fluid">
+        <header class="d-flex justify-content-between bg-body-tertiary">
+            <i class="bi bi-caret-left-fill fs-3"></i>
+            <span class="fs-2">Home</span>
+            <i class="bi bi-caret-right-fill fs-3"></i>
+        </header>
+        <div class="d-lg-flex justify-content-between m-5">
+            <div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" value="category1" id="category1">
+                    <label class="form-check-label" for="category1">
+                        Categoria 1
+                    </label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" value="category2" id="category2">
+                    <label class="form-check-label" for="category2">
+                        Categoria 2
+                    </label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" value="category3" id="category3">
+                    <label class="form-check-label" for="category3">
+                        Categoria 3
+                    </label>
+                </div>
+            </div>
+            <div class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Buscar" value="">
+                <button type="button" class="btn btn-outline-success">Buscar</button>
+            </div>
+        </div>
+
+        <div class="row gap-2">
+            <div class="card col">
+                <img src="./assets/MusicConcert.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Título</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam itaque illum
+                        molestias nemo, ex vitae perspiciatis provident magni voluptate debitis beatae natus facere
+                        fugiat dignissimos eos incidunt voluptatum assumenda sit.</p>
+                    <div class="d-flex justify-content-between">
+                        <span>Precio: 999$</span>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card col">
+                <img src="./assets/FoodFair.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Título</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam itaque illum
+                        molestias nemo, ex vitae perspiciatis provident magni voluptate debitis beatae natus facere
+                        fugiat dignissimos eos incidunt voluptatum assumenda sit.</p>
+                    <div class="d-flex justify-content-between">
+                        <span>Precio: 999$</span>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card col">
+                <img src="./assets/CostumeParty.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Título</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam itaque illum
+                        molestias nemo, ex vitae perspiciatis provident magni voluptate debitis beatae natus facere
+                        fugiat dignissimos eos incidunt voluptatum assumenda sit.</p>
+                    <div class="d-flex justify-content-between">
+                        <span>Precio: 999$</span>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="bg-secondary-subtle d-flex justify-content-between m-3">
+        <div class="d-flex w-25 justify-content-around">
+            <i class="fs-2 bi bi-instagram"></i>
+            <i class="fs-2 bi bi-facebook"></i>
+            <i class="fs-2 bi bi-whatsapp"></i>
+        </div>
+        <h3>Cohor</h3>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
